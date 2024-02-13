@@ -10,7 +10,7 @@
 - Clone this repository
 
   ```
-  git clone https://github.com/gajanankathar/gftglobal.git
+  git clone https://github.com/gajanankathar/sela.git
   ```
   
    
@@ -52,16 +52,23 @@
   python manage.py runserver
   ```
 
-### 5. Sitemap 
+### 5. React app repo
+
+- Make sure to also clone the sela-web git submodules.
+  ```
+  git submodule update --init
+  ```
+
+### 6. Sitemap 
 
 - Home page
   ```
-  http://localhost:8000/
+  http://localhost:3000/
   ```
 
-- Create customer page
+- Create new task page
   ```
-  http://localhost:8000/register/
+  http://localhost:3000/#/create/tasks/
   ```
   
 - Login - User is created when customer got created in system. Username will be your customer first name in lowercase and default password is "password".
