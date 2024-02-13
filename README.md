@@ -58,6 +58,7 @@
   ```
   git submodule update --init
   ```
+- Follow instruction to run react app listed at sela-web README.md file
 
 ### 6. Sitemap 
 
