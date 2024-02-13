@@ -68,16 +68,7 @@
 
 - Create new task page
   ```
-  http://localhost:3000/#/create/tasks/
+  http://localhost:3000/create/tasks/
   ```
-  
-- Login - User is created when customer got created in system. Username will be your customer first name in lowercase and default password is "password".
-  ```
-  http://localhost:8000/login/
-  ```
-  
-- Update customer page
-  ```
-  http://localhost:8000/update/1/
-  ```
+
 
